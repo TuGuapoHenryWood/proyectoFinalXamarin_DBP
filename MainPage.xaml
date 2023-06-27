@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoFinal_DBP.MainPage">
+
+    <StackLayout BackgroundColor="#e5e5e5" Padding="50">
+        <Label Text="Studynt" FontFamily="Caprasimo" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Goldenrod" FontSize="70" FontAttributes="Bold" Margin="0,170, 0, 0"></Label>
+        <Label HorizontalOptions="Center" Margin="0,0,0,10" TextColor="Gray" FontSize="14">Desarrollo Basado en Plataformas</Label>
+        <Button Text = "INICIAR"
+            FontFamily="Caprasimo"
+            x:Name = "Button1"
+            Clicked = "MovePage"
+            HorizontalOptions="Center"
+            BackgroundColor = "Goldenrod"
+            TextColor = "#e5e5e5"
+            HeightRequest = "40" 
+            WidthRequest="150"/>
+
+        <Button Text = "Ver Horas"
+            FontFamily="Caprasimo"
+            x:Name = "Button2"
+            Clicked = "MoveTo"
+            HorizontalOptions="Center"
+            BackgroundColor = "Transparent"
+            TextColor = "Goldenrod"
+            FontSize="10"
+            HeightRequest = "30" />
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoFinal_DBP.Study">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="BlanchedAlmond"  Padding="20">
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Estudiando...</Label>
+            <Button Text = "Finalizar"
+            x:Name = "Button1"
+            Clicked = "MovePage"
+            FontFamily="Caprasimo"
+            BackgroundColor = "#e5e5e5"
+            TextColor = "Goldenrod"
+            HeightRequest = "50" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

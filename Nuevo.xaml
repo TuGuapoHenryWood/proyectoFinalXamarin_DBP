@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoFinal_DBP.Nuevo">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e5e5e5" Padding="20">
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Nuevo Curso</Label>
+            
+            <Button Text = "Agregar"
+            Clicked = "MovePage"
+            FontFamily="Caprasimo"
+            HorizontalOptions="Center"
+            BackgroundColor = "Goldenrod"
+            TextColor = "#e5e5e5"
+            HeightRequest = "50" />
+
+            <Button Text = "Cancelar"
+            FontFamily="Caprasimo"
+            Clicked = "MovePage"
+            HorizontalOptions="Center"
+            BackgroundColor = "Transparent"
+            TextColor = "Gray"
+            FontSize="10"
+            HeightRequest = "30" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

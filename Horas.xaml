@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoFinal_DBP.Horas">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprisimo" TextColor="Goldenrod">Horas</Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

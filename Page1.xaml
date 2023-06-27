@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoFinal_DBP.Page1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
+                <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Cursos</Label>
+
+                <Button Text = "Programacion de Videojuegos"
+                Clicked = "MovePage"
+                FontFamily="Caprasimo"
+                BackgroundColor = "Gray"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="25"/>
+
+                <Frame Margin="70,15,70,10" IsClippedToBounds="True" CornerRadius="50" Padding="0">
+                    <Button Text = "+"
+                    FontSize="20"
+                    Clicked = "MoveTo"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "WhiteSmoke"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
