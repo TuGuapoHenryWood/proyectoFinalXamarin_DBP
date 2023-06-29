@@ -4,7 +4,32 @@
              x:Class="proyectoFinal_DBP.Horas">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
-            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprisimo" TextColor="Goldenrod">Horas</Label>
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Horas</Label>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Margin="10,10,10,0" Orientation="Vertical">
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Programacion de Videojuegos:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Matematica:</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Gray" FontSize="17">Estructuras Discretas:</Label>
+                </StackLayout>
+                <StackLayout Margin="0,10,0,0" Orientation="Vertical">
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                    <Label FontFamily="Caprasimo" TextColor="Goldenrod" FontSize="17">Time</Label>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

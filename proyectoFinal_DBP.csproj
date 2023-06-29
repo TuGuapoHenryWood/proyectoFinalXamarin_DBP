@@ -13,15 +13,29 @@
 
   <ItemGroup>
     <None Remove="Fonts\Caprasimo-Regular.ttf" />
+    <None Remove="Fonts\Lexend-Regular.ttf" />
+    <None Remove="Fonts\Staatliches-Regular.ttf" />
+    <None Remove="Sonidos\Soda Stereo - Soda Stereo %281984%29 %28Álbum Completo%29.mp3" />
+    <None Remove="Sonidos\The Beatles A Hard Day%27s Night Full Album.mp3" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Fonts\Caprasimo-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\Lexend-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\Staatliches-Regular.ttf" />
+    <EmbeddedResource Include="Sonidos\The Beatles A Hard Day's Night Full Album.mp3">
+      <CustomToolNamespace>proyectoFinal_DBP</CustomToolNamespace>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.6.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Sonidos\Soda Stereo - Soda Stereo (1984) (Álbum Completo).mp3" />
   </ItemGroup>
 
   <ItemGroup>

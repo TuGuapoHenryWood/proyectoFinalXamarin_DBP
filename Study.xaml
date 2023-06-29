@@ -3,11 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectoFinal_DBP.Study">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="BlanchedAlmond"  Padding="20">
+        <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
             <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Estudiando...</Label>
+
+            <Label FontFamily="Caprasimo" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="70" TextColor="Goldenrod">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding StopWatchHours}"></Span>
+                        <Span Text=":"></Span>
+                        <Span Text="{Binding StopWatchMinutes}"></Span>
+                        <Span Text=":"></Span>
+                        <Span Text="{Binding StopWatchSeconds}"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
             <Button Text = "Finalizar"
             x:Name = "Button1"
-            Clicked = "MovePage"
+            Clicked = "GetTime"
             FontFamily="Caprasimo"
             BackgroundColor = "#e5e5e5"
             TextColor = "Goldenrod"

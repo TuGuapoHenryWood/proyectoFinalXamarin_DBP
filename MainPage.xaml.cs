@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 [assembly: ExportFont("Caprasimo-Regular.ttf", Alias = "Caprasimo")]
+[assembly: ExportFont("Lexend-Regular.ttf", Alias = "Lexend")]
+
 namespace proyectoFinal_DBP
 {
     public partial class MainPage : ContentPage

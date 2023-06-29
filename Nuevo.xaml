@@ -12,7 +12,7 @@
             HorizontalOptions="Center"
             BackgroundColor = "Goldenrod"
             TextColor = "#e5e5e5"
-            HeightRequest = "50" />
+            HeightRequest = "35" />
 
             <Button Text = "Cancelar"
             FontFamily="Caprasimo"

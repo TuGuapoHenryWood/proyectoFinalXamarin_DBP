@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -25,21 +25,15 @@ namespace proyectoFinal_DBP
         public void MovePage(object obj, EventArgs args)
         {
             Navigation.PushAsync(new Study());
-            Player("Sonidos.The Beatles A Hard Day's Night Full Album.mp3");
         }
 
         public void MoveTo(object obj, EventArgs args)
         {
             Navigation.PushAsync(new Nuevo());
         }
- 
-        public void Player(string sonido)
-        {
-            var assembly = typeof(App).GetTypeInfo().Assembly;
-            Stream audioStream = assembly.GetManifestResourceStream(sonido);
-            var audio = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
-            audio.Load(audioStream);
-            audio.Play();
-        }
     }
 }
+
+
+
+

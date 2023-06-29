@@ -5,7 +5,7 @@
 
     <StackLayout BackgroundColor="#e5e5e5" Padding="50">
         <Label Text="Studynt" FontFamily="Caprasimo" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Goldenrod" FontSize="70" FontAttributes="Bold" Margin="0,170, 0, 0"></Label>
-        <Label HorizontalOptions="Center" Margin="0,0,0,10" TextColor="Gray" FontSize="14">Desarrollo Basado en Plataformas</Label>
+        <Label FontFamily="Lexend" HorizontalOptions="Center" Margin="0,0,0,10" TextColor="Gray" FontSize="14">Desarrollo Basado en Plataformas</Label>
         <Button Text = "INICIAR"
             FontFamily="Caprasimo"
             x:Name = "Button1"
